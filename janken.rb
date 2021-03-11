@@ -29,7 +29,8 @@ while next_game do
 
     # puts "相手の手" + " " + "hands[enemy_number]"
     puts "あいこです"
-    next_game = false
+    break
+    #next_game=falseからbreakへの変更
   #かちの全通り
   elsif (player_number == 0 && enemy_number == 1) || (player_number == 1 && enemy_number == 2) ||  (player_number == 2 && enemy_number == 0)
     puts "あなたの手 #{hands[player_number]}"
@@ -37,7 +38,8 @@ while next_game do
     puts "相手の手 #{hands[enemy_number]}"
     # puts "相手の手" + " " + "hands[enemy_number]"
     puts "勝ちです"
-    next_game = false
+    break
+    #next_game=falseからbreakへの変更
   #上記の時以外は負け
   else
     puts "あなたの手 #{hands[player_number]}"
@@ -45,6 +47,7 @@ while next_game do
     puts "相手の手 #{hands[enemy_number]}"
     # puts "相手の手" + " " + "hands[enemy_number]"
     puts "負けです"
-    next_game = false
+    break
+    #next_game=falseからbreakへの変更
   end
 end
