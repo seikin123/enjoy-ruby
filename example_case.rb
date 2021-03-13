@@ -1,5 +1,6 @@
 text.each_line do |line|
-
+  #each_lineメソッドではメール本文のテキストデータtextから
+  #1行ずつ文字列を取り出して変数lineに代入します
   case line
   when /^From:/i
     puts "送信者の情報を見つけました"
