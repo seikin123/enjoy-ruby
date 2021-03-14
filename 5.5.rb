@@ -1,4 +1,4 @@
-array = ["a", 1, nil ]
+array = ["a", 1, nil ] #配列の応用
 array.each do |item|
   case item
   when String
