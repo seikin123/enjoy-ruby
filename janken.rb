@@ -3,7 +3,7 @@ end
 
 # 配列
 hands = ["グー", "チョキ", "パー"]
-next_game = true
+next_game = true 
 
 while next_game do
   puts "最初はグー、ジャンケン..."
@@ -11,7 +11,7 @@ while next_game do
   puts "[1]:チョキ" 
   puts "[2]:パー"
   player_number = gets.to_i
-  enemy_number = rand(3)
+  enemy_number = rand(3) #ランダムで出されるように
   
   if player_number >= 3
     puts "入力された値は無効です"
