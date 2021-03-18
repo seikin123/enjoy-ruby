@@ -9,7 +9,7 @@
 hit = rand(1..10)
     #puts hit
 
-if hit < 6
+if hit < 8
     puts "スライムに、#{hit}のダメージを与えた"
 else
     puts "クリティカルヒット！スライムに、100のダメージを与えた！！"
