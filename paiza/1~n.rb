@@ -5,3 +5,12 @@ for i in 1..n.to_i do
     sum += i
 end
 print sum
+
+#WHILE文
+sum = 0 
+i = 1
+
+while i <= 10
+    sum = sum + i
+    i = i + 1
+end
