@@ -3,4 +3,7 @@ class User
     @name = name
     @password = password
   end
-  
+
+  def name
+    p @name
+  end
