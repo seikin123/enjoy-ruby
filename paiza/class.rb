@@ -7,3 +7,7 @@ class User
   def name
     p @name
   end
+
+  def password
+    p @password
+  end
