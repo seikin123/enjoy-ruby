@@ -11,3 +11,4 @@ class User
   def password
     p @password
   end
+end
